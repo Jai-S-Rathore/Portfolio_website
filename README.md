@@ -31,5 +31,5 @@ This website was created using:
 
 ##  Screenshots 
 
-![Home page preview](./Screenshot%202025-12-17%20191712.png)
-![Projects section preview](./Screenshot%202025-12-17%20191750.png)
+![Home page preview](<img src="images/home.png" width="800">)
+![Projects section preview](<img src="images/project.png" width="800">)
