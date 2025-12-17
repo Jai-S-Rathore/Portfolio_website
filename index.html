@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSR Portfolio | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;900&display=swap" rel="stylesheet">
+    <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #1e3c72, #2a5298, #c94b4b); color: white; }
+        .hero__title { border-right: 3px solid #60FF67; white-space: nowrap; overflow: hidden; }
+        @keyframes blink { 50% { border-color: transparent; } }
+        .animate-blink { animation: blink 0.8s step-end infinite; }
+    </style>
+</head>
+<body class="min-h-screen">
+    <header class="fixed top-0 left-0 right-0 z-50 py-6 px-8 md:px-12 backdrop-blur-sm">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="text-3xl font-black tracking-tighter">JSR<span class="text-[#60FF67]">.</span></a>
+            <nav class="space-x-8 text-sm font-medium uppercase tracking-widest">
+                <a href="index.html" class="text-[#60FF67]">Home</a>
+                <a href="ee.html" class="hover:text-[#60FF67] transition">Education & Experience</a>
+                <a href="ee.html#skill " class="hover:text-[#60FF67] transition">Skills</a>
+                <a href="project.html" class="hover:text-[#60FF67] transition">Projects</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="min-h-screen flex items-center justify-center px-6">
+        <div class="flex flex-col md:flex-row items-center justify-center gap-12 max-w-6xl w-full">
+            <div class="text-center md:text-left flex-1 ml-8">
+                <h1 class="hero__title text-4xl md:text-6xl font-black tracking-tight leading-tight inline-block uppercase">
+                    Jai Singh Rathore
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-200 mt-4 font-light uppercase tracking-widest">
+                    Frontend Web Developer 
+                </p>
+                <p class="mt-6 text-gray-300 max-w-lg leading-relaxed">
+                    Dynamic software engineering student committed to enhancing user experiences through innovative solutions and secure application development.
+                </p>
+            
+            <div class="flex justify-center md:justify-start gap-6 mt-8 text-2xl">
+                 <a href="https://www.linkedin.com/in/jai-singh-rathore-216822315/"  class="text-red-400 hover:text-[#60FF67] transition-colors duration-300 ">
+                 <i class="fab fa-linkedin" style="width: 30px; height:30px;"></i>
+                 </a>
+                 <a href="https://github.com/Jai-S-Rathore"  class="text-red-400 hover:text-[#60FF67] transition-colors duration-300 ">
+                 <i class="fab fa-github" style="width: 24px; height:24px;"></i>
+                 </a>
+                 <a href="https://www.instagram.com/jai_srathore29/"  class="text-red-400 hover:text-[#60FF67] transition-colors duration-300">
+                 <i class="fab fa-instagram" style="width: 24px; height:24px;"></i>
+                 </a>
+                 <a href="J.S.Rathore (2).pdf" 
+                    download="J.S.Rathore.pdf" 
+                    class="px-2 py-0.5 bg-red-400  text-black mix-blend-screen font-bold rounded-full hover:bg-opacity-90 transition-colors duration-300">
+                    Resume
+                 </a>
+             </div>
+            </div>
+             
+             <div class="shrink-0">
+                <img src="WhatsApp Image 2025-10-16 at 10.24.13 PM.jpeg" alt="JSR" class="w-[280px] h-[280px] object-cover rounded-full border-[5px] border-white/30 shadow-2xl mr-12 ">
+            </div>
+        </div>
+    </section>
+
+    <div class="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center animate-bounce">
+    <a href="#about" class="flex flex-col items-center group text-white/70 hover:text-white transition-colors">
+        <span class="text-xs font-semibold tracking-widest uppercase mb-2">Scroll</span>
+        <i class="fas fa-chevron-down"></i>
+    </a>
+</div>
+
+    <section id="about" class="py-24 px-6 bg-black/5">
+    <div class="container mx-auto max-w-5xl">
+        <div class="flex flex-col md:flex-row md:items-end gap-4 mb-12">
+            <h2 class="text-4xl md:text-5xl font-black uppercase tracking-tighter">About Me</h2>
+            <p class="text-[#60FF67] font-bold uppercase tracking-widest text-sm pb-1">The Builder Mindset</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12">
+            <div class="md:col-span-2 space-y-6 text-gray-200">
+                <p class="text-xl leading-relaxed">
+                    Hi, I'm <span class="text-white ">Jai Singh Rathore</span>, a Computer Science & Engineering student with a deep-rooted obsession for building things that live on the internet. </p>
+                <p class="leading-relaxed" style="margin-top: 12px">
+                    My journey in tech is driven by the sweet spot where clean logic meets creative design. I don't just want my code to work; I want it to be efficient and user-friendly. Whether I am contributing in a team, I ensure project goals are met with precision.</p>
+                <p class="mt-3leading-relaxed" style="margin-top: 12px">
+                    When I'm not deep in a terminal or debugging a stack trace, I'm usually exploring the latest in Software Engineering, optimizing web performance, or figuring out how to make digital interfaces feel more Human. I'm a firm believer in continuous learning.</p>
+                <p class="mt-3 text-white font-medium italic" style="margin-top: 12px">
+                    I'm currently looking to bring my technical foundation and "builder" mindset to a professional SWE team where I can contribute to impactful products.
+                </p>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
+    <footer class="py-8 text-center border-t border-slate-800">
+        
+        <p class="text-md text-white-500">&copy; 2025 Jai Singh Rathore. All Rights Reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
